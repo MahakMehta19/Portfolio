@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website | Mahak</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Mahak Mehta</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I’m a final-year IIT Kanpur undergrad passionate about building clean,
+          scalable systems and intuitive user experiences. I love working with
+          web tech, ML and AI to turn ideas into impactful projects.
+        </p>
+
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/mahak-mehta-506611256/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/mehtamahak19" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/share/1B4nzAPPJW/?mibextid=qi2Omg"
+            target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://github.com/MahakMehta19" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="mailto:mehtamahak66@gmail.com" target="_blank"
+            ><i class="bx bxl-gmail"></i
+          ></a>
+        </div>
+
+        <!--<a href="#" class="btn">Download CV</a>-->
+        <a href="images/Mahak_Mehta_reume.pdf" class="btn" download
+          >Download CV</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="images/home.png" alt="Mahak Mehta profile picture" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Student | Software Developer | AI Enthusiast | Web Developer</h3>
+        <p>
+          I love turning ideas into things that work. From late-night coding
+          experiments to real ML and web projects, I enjoy building tools that
+          help people and make everyday tasks easier. Now in my final year at
+          IIT Kanpur, I’m excited to keep learning and creating along the way.
+        </p>
+
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <h2 class="heading">My <span>Experience</span></h2>
+      <div class="experience-container">
+        <!-- Corporate Experience Card -->
+        <div class="experience-category">
+          <div class="experience-image experience-toggle">
+            <img src="images/corporate.jpeg" alt="Corporate Experience" />
+            <div class="experience-overlay">
+              <h3>Corporate Internship</h3>
+            </div>
+          </div>
+          <div class="experience-details">
+            <h4>JSW One Platforms</h4>
+            <p>
+              <b>Credit Strategy Intern – Summer 2025</b><br />
+              Worked on Credit 360 to boost credit adoption via segmentation and
+              CRM-driven outreach.
+            </p>
+          </div>
+        </div>
+
+        <!-- Startup Experience Card -->
+        <div class="experience-category">
+          <div class="experience-image experience-toggle">
+            <img src="images/startup.jpeg" alt="Startup Internships" />
+            <div class="experience-overlay">
+              <h3>Startup Internships</h3>
+            </div>
+          </div>
+          <div class="experience-details">
+            <h4>Happy Plum</h4>
+            <p>
+              <b>Business Development Intern – 2024</b><br />
+              Built case studies and growth strategies for a kids’ language
+              learning platform (PreK-3).
+            </p>
+            <h4>Fyzen Career Solutions</h4>
+            <p>
+              <b>Business Analytics Intern – 2023</b><br />
+              Formed 200+ institute partnerships, boosted engagement, and drove
+              growth for interwiu.com.
+            </p>
+            <h4>Raise Digital Solutions</h4>
+            <p>
+              <b>Web Development Intern – 2023</b><br />
+              Improved site UI/UX and performance, reducing load time by 30%.
+            </p>
+            <h4>OM Jewelry Mart</h4>
+            <p>
+              <b>Full-Stack Web Intern – 2024</b><br />
+              Built a scalable e-commerce site using React, Node.js, and payment
+              APIs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I build responsive, user-friendly web applications using
+            <b>HTML, CSS, JavaScript, React, Node.js, and GoLang</b>. I focus on
+            clean design, seamless user experiences, and scalable backend
+            integrations to develop full-stack projects from scratch
+          </p>
+          <a href="#" class="btn" data-skill="Web Development">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-brain"></i>
+          <h3>Machine Learning & AI</h3>
+          <p>
+            I have hands-on experience building ML models using
+            <b>Python, TensorFlow, and scikit-learn</b>, including GAN-based
+            creative applications and predictive modeling projects. I am
+            passionate about applying AI to develop impactful, innovative
+            solutions
+          </p>
+          <a href="#" class="btn" data-skill="Machine Learning & AI"
+            >Read More</a
+          >
+        </div>
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Data Structures & Algorithms</h3>
+          <p>
+            Strong grasp of problem-solving using DSA concepts, regularly
+            practicing coding on platforms like LeetCode and Codeforces. I am
+            proficient in implementing efficient algorithms and optimizing
+            solutions, which helps in technical interviews and real-world
+            projects
+          </p>
+          <a href="#" class="btn" data-skill="Data Structures & Algorithms"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Text2Image GAN</h4>
+            <p>
+              Built a GAN model that turns text into images with 99% accuracy
+              using advanced CNN layers
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>E-Commerce Cart Backend</h4>
+            <p>
+              Developed a scalable cart backend in GoLang with clean APIs for
+              smooth frontend integration
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Trippo Website</h4>
+            <p>
+              Designed and developed Trippo, a travel website with a clean UI,
+              destination filters, and responsive design for easy trip planning.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>ML-PUF Modeling</h4>
+            <p>Modeled Multi-Level PUFs using a 64-D feature space and SVM</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Smart Maintenance</h4>
+            <p>
+              Predicted equipment failures with ML to enable proactive
+              maintenance
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Sales Forecasting</h4>
+            <p>
+              Built an ML pipeline to predict sales and optimize inventory,
+              boosting accuracy by 15%
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="https://formsubmit.co/mehtamahak66@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false" />
+        <div class="input-box">
+          <input type="text" name="Name" placeholder="Full Name" required />
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input type="number" name="Phone" placeholder="Mobile number" />
+          <input type="text" name="Subject" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name="Message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Made with ❤️ by Mahak</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- Modal (Hidden by default) -->
+    <div id="skillModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modal-title">Skill Title</h2>
+        <div id="modal-icons" class="icon-list">
+          <!-- Icons will be dynamically inserted -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!--custoom-->
+    <script src="script.js"></script>
+  </body>
+</html>
